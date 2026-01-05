@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate
 # Initialize Groq LLM
 def initialize_llm():
     return ChatGroq(
-        groq_api_key="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",
+        groq_api_key="YOUR_API_KEY",
         model_name="llama3-8b-8192"
     )
 
@@ -78,3 +78,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
